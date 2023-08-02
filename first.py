@@ -66,6 +66,11 @@ if "mango" in b:
     print("Yes")
 else:
     print("No")
+
+if "1" in b :
+    print("yes")
+else:
+    print("NO")    
 # Boolean in python...
 
 
