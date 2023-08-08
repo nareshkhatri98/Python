@@ -6,7 +6,6 @@ class Student:
         print(f"{self.name} is student")
 
 obj = Student()
-object
 obj.show()
 
 
