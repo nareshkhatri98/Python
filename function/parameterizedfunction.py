@@ -1,3 +1,6 @@
+# parameterized / Argumented function: the functio which takes the arguments during the initialization  process is called
+# the parameterized function. Below the example of the parameterized function without retrn types.
+
 def Addition( number1, number2):
   sum = number1+ number2
   print(f" the sum of the two numbers {number1} and {number2} is: {sum}")
