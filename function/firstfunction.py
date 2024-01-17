@@ -11,3 +11,13 @@ def Addition () :
 
 Result = Addition()
 print("Addition is", Result)
+
+
+def Greed():
+       print("Hello Good afternoon Every one")
+       
+Greed()
+Greed()
+Greed()
+Greed()
+Greed()
