@@ -1,0 +1,6 @@
+This is demo of the file handiling in python..
+this is dume data
+this is naresh
+this is bisham thapa
+this is Hari thapa
+this is att.
