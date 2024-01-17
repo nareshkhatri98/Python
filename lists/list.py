@@ -64,3 +64,6 @@ numbers =[1,2,3,4,5,6,7]
 # extend() this methos is used for adds the an entire list of items S
 characteres = characteres +list
 print(characteres)
+
+# list methos
+
