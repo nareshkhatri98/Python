@@ -13,29 +13,7 @@ class Person:
         print(f"{self.name} is a {self.occupation} and the lives in {self.Address}")  
 # creating  the object of the class Person....
 obj = Person()
-obj.show()  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+obj.show() 
 #  class that contains the all arithmetic operations....
 class Arithmetic:
       
@@ -67,3 +45,16 @@ print("Multiplication is:" ,(obj1.Mul()))
 print("Division is: " ,(obj1.Div()))
 print("Modulus is: " ,(obj1.Mod()))
     
+# exmple-3
+class Person:
+     FullName ="Naresh"
+     def __init__(self, Name,Id):
+         self.Name = Name
+         self.Id = Id
+   
+     def show(self):
+         print("Name of the person is:",(self.Name))
+         print("Id of the person is:",(self.Id))
+
+obj2= Person("Naresh", 12)
+obj2.show()
