@@ -37,3 +37,13 @@ def DemoFunction():
     print("I am always executed....")
 
 DemoFunction()
+
+custom error(use the raise key word)
+
+def function():
+   salary = float(input("Enter the salary between 120000 and 300000: "))
+   if( salary< 120000 or salary>300000):
+     raise ValueError("The salary should be between 120000 and 3000000")
+   print(salary)
+      
+function()
