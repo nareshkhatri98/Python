@@ -1,5 +1,5 @@
 # inheritance means the child class access the properties,method behaviours of the parent class
-
+# This is an example of the single level inheritance hierarchy..
 class Person:
       def __init__(self, name, age, email, address):
             self.name = name
