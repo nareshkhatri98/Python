@@ -38,7 +38,7 @@ def DemoFunction():
 
 DemoFunction()
 
-custom error(use the raise key word)
+# custom error(use the raise key word)
 
 def function():
    salary = float(input("Enter the salary between 120000 and 300000: "))
