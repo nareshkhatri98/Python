@@ -34,3 +34,19 @@ person2 = Person("jam", 30)
 # Displaying the information using the display method
 person1.display()
 person2.display()
+
+
+class Student:
+    
+    collegeName ="SWSC" #class Attribute
+
+    def __init__(self, name, marks):
+        self.name = name  #object attribute(instance attribute)
+        self.marks = marks
+        print("Adding the new student in Database..")
+        print(self)
+
+
+std = Student("Naresh", 12)
+print(std.name,std.marks,std.collegeName)
+print(std)
