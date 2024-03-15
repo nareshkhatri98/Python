@@ -2,8 +2,7 @@
 # Then create a method to print the average.
 
 class Student:
-
-    def __init__(self, name, marks):
+    def __init__(self, name ,marks):
         self.name = name
         self.marks = marks
     
@@ -12,8 +11,9 @@ class Student:
         for i in self.marks:
             sum += i
 
-        print(self.name, "yor average marks in  the three subject is: ", (sum/3))
+        print(sum)
+        average = sum /3
+        print("hi", self.name, "Your average score is:", average)
 
-obj = Student("Naresh", [12,13,14])
-# print(obj.name, obj.marks)
+obj = Student("Narresh", [45,56,45])
 obj.Average()
